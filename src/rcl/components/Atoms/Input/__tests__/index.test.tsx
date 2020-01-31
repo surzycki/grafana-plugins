@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '..';
-import { shallow, render } from 'enzyme';
+import Input from '..';
+import { render, shallow, mount } from 'enzyme';
 
 const setup = (propOverrides) => {
   const props = { ...propOverrides };
 
-  const component = <Button {...props} />;
+  const component = <Input {...props} />;
   const wrapper = shallow(component);
 
   return {
@@ -15,13 +15,13 @@ const setup = (propOverrides) => {
   };
 };
 
-describe('<Button />', () => {
+describe('<Input />', () => {
   it('renders correctly', () => {
     const tree = render(setup().component);
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders to static HTML', function () {
-    expect(render(<Button />).text()).toEqual('Hello Button');
+  it('mounts in a full DOM', function () {
+    expect(mount(<Input />).find('input').length).toBe(1);
   });
 });

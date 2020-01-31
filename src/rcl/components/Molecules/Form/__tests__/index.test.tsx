@@ -1,11 +1,11 @@
 import React from 'react';
-import Button from '..';
-import { shallow, render } from 'enzyme';
+import Form from '..';
+import { render, shallow } from 'enzyme';
 
 const setup = (propOverrides) => {
   const props = { ...propOverrides };
 
-  const component = <Button {...props} />;
+  const component = <Form {...props} />;
   const wrapper = shallow(component);
 
   return {
@@ -15,13 +15,9 @@ const setup = (propOverrides) => {
   };
 };
 
-describe('<Button />', () => {
+describe('<Form />', () => {
   it('renders correctly', () => {
     const tree = render(setup().component);
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders to static HTML', function () {
-    expect(render(<Button />).text()).toEqual('Hello Button');
   });
 });
