@@ -1,5 +1,5 @@
 import React from 'react';
-import {{properCase name}} from '..';
+import Checkbox from '..';
 import { render, shallow, mount } from 'enzyme';
 
 const setup = (propOverrides) => {
@@ -8,7 +8,7 @@ const setup = (propOverrides) => {
     ...propOverrides
   };
 
-  const component = <{{properCase name}} {...props} />;
+  const component = <Checkbox {...props} />;
   const wrapper = shallow(component);
 
   return {
@@ -18,7 +18,7 @@ const setup = (propOverrides) => {
   };
 };
 
-describe('<{{properCase name}} />', () => {
+describe('<Checkbox />', () => {
   it('renders correctly', () => {
     const tree = render(setup().component);
     expect(tree).toMatchSnapshot();

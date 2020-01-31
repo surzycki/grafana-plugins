@@ -29,21 +29,21 @@ module.exports = {
     const actions = [
       {
         type: 'add',
-        path: 'src/rcl/components/{{ parents }}{{properCase name}}/index.tsx',
+        path: 'src/rcl/components/{{ parents }}/{{properCase name}}/index.tsx',
         templateFile: 'plop_templates/rcl/tsx_template.txt',
         data,
         abortOnFail: false
       },
       {
         type: 'add',
-        path: 'src/rcl/components/{{ parents }}{{properCase name}}/README.md',
+        path: 'src/rcl/components/{{ parents }}/{{properCase name}}/README.md',
         templateFile: 'plop_templates/rcl/README_template.txt',
         data,
         abortOnFail: false
       },
       {
         type: 'add',
-        path: 'src/rcl/components/{{ parents }}{{properCase name}}/__tests__/index.test.js',
+        path: 'src/rcl/components/{{ parents }}/{{properCase name}}/__tests__/index.test.js',
         templateFile: 'plop_templates/test_template.txt',
         data,
         abortOnFail: false

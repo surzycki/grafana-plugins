@@ -1,6 +1,6 @@
 import React from 'react';
 
-class {{properCase name}} extends React.Component {
+class Checkbox extends React.Component {
   render() {
     return(
       <div>
@@ -9,4 +9,4 @@ class {{properCase name}} extends React.Component {
   }
 }
 
-export default {{properCase name}};
+export default Checkbox;
