@@ -20,12 +20,6 @@ Once the container is running (`docker ps`) you can access it on:
 
 http://localhost:3000
 
-## Access container
-
-```
-$ docker-compose exec dev sh
-```
-
 ## Develop plugin
 
 ```

@@ -29,7 +29,7 @@ export class SimplePanel extends PureComponent<Props> {
           viewBox={`-${width / 2} -${height / 2} ${width} ${height}`}
         >
           <g>
-            <circle style={{ fill: '#FF0000' }} r={160} />
+            <circle style={{ fill: '#FF00FF' }} r={160} />
           </g>
         </svg>
 
