@@ -21,7 +21,7 @@ describe('<Button />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('renders to static HTML', function () {
+  it('renders to static HTML', () => {
     expect(render(<Button />).text()).toEqual('Hello Button');
   });
 });

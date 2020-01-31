@@ -21,7 +21,7 @@ describe('<Input />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('mounts in a full DOM', function () {
+  it('mounts in a full DOM', () => {
     expect(mount(<Input />).find('input').length).toBe(1);
   });
 });
