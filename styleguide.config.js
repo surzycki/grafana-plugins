@@ -17,5 +17,10 @@ module.exports = {
       content: `${rclBaseDir}/docs/Atoms.md`,
       components: `${rclBaseDir}/components/Atoms/*/index.${extensions}`,
     },
+    {
+      name: 'Molecules',
+      content: `${rclBaseDir}/docs/Molecules.md`,
+      components: `${rclBaseDir}/components/Molecules/*/index.${extensions}`,
+    },
   ]
 }

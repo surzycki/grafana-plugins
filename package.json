@@ -16,11 +16,12 @@
     "@grafana/data": "next",
     "@grafana/toolkit": "next",
     "@grafana/ui": "next",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.2",
-    "react-styleguidist": "^10.6.1"
+    "react-styleguidist": "^10.6.1",
+    "react-test-renderer": "16.8.6"
   },
   "dependencies": {
-    "@types/jest": "^24.0.25"
+    "@babel/preset-react": "^7.0.0",
+    "@types/jest": "^24.0.25",
+    "react": "16.8.6"
   }
 }
