@@ -2,7 +2,7 @@
 
 This is just a stub to show how you can create a basic visualization plugin.
 
-Prerequsites:
+Prerequisites:
 * Docker
 * Docker sync (http://docker-sync.io/)
 
