@@ -6,3 +6,4 @@ const GraphanaToolkitConfig = require('@grafana/toolkit/src/config/webpack.plugi
 const config = GraphanaToolkitConfig.getWebpackConfig({});
 
 module.exports = config;
+
