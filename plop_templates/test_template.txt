@@ -1,17 +1,13 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
-import { defaults } from 'types';
-import { SimplePanel } from './SimplePanel';
+import {{properCase name}} from '..';
 
 const setup = (propOverrides) => {
-  const mockedData = jest.fn();
-
   const props = {
-    data: { series: mockedData },
-    options: defaults,
+    // default props go here
     ...propOverrides
   };
-  const component = <SimplePanel {...props} />;
+
+  const component = <{{properCase name}} {...props} />;
   const wrapper = shallow(component);
 
   return {
@@ -21,12 +17,9 @@ const setup = (propOverrides) => {
   };
 };
 
-
-describe('<SimplePanel />', () => {
+describe('<{{properCase name}} />', () => {
   it('renders correctly', () => {
     const tree = render(setup().component);
     expect(tree).toMatchSnapshot();
   });
 });
-
-

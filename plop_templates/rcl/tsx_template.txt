@@ -1,0 +1,17 @@
+import React from 'react';
+
+class {{properCase name}} extends React.Component {
+  render() {
+    return(
+      <div {...rest}>
+        { children }
+      </div>
+    );
+  }
+}
+
+{{properCase name}}.defaultProps = {
+  // Place any default props here.
+};
+
+export default {{properCase name}};

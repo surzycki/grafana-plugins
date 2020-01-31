@@ -24,7 +24,7 @@ http://localhost:3000
 
 ```
 $ docker-compose exec dev sh
-$ yarn install
+$ yarn install --frozen-lockfile
 $ yarn watch
 ```
 
