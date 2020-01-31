@@ -1,0 +1,13 @@
+version: '2'
+volumes:
+  db-data:
+    external: false
+
+services:
+  dev:
+    build: .
+    hostname: graphana
+    ports:
+      - 3000:3000
+    volumes:
+    - ".:/~:cached"
