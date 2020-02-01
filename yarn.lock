@@ -994,7 +994,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
   integrity sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==
 
-"@grafana/data@6.5.2", "@grafana/data@next":
+"@grafana/data@6.5.2":
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/@grafana/data/-/data-6.5.2.tgz#31117e5b43034fcb3cd6dcbc7c05d08f284e5d85"
   integrity sha512-695jP9Rdc9yAtnFMHKG5OGO5WTLpnRnwJNGqHjxDOczRWnsQBALdJZHnfvEL1G5W0YW5s+51WzO9eAa5KkgF+A==
@@ -1021,7 +1021,7 @@
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
 
-"@grafana/toolkit@next":
+"@grafana/toolkit@6.5.2":
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.5.2.tgz#9b1814ccbcb54f837e3eaef4713cc123ffa25794"
   integrity sha512-cygbVuAkHGK7yaRtES0s2bQZUt+2dr7GVZO6hL9q56C1EqdZNVnljfFfqa2k8FBJvkJiTejgrRkpvuI3pg4d5w==
@@ -1094,7 +1094,7 @@
     url-loader "^2.0.1"
     webpack "4.35.0"
 
-"@grafana/ui@6.5.2", "@grafana/ui@next":
+"@grafana/ui@6.5.2":
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-6.5.2.tgz#1281fba13279267d54dbf3fc0df9877a950243fe"
   integrity sha512-HzCN9g3jjvs1i/hnHglOM3h2XSlvf1TLfiZJAi9ZZJaQNZ95i5Y/CQ/JZN3pijYLhCtp8PBCQV1BX2H83vyvtw==

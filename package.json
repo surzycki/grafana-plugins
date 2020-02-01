@@ -14,9 +14,9 @@
   "author": "Grafana Labs",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "next",
-    "@grafana/toolkit": "next",
-    "@grafana/ui": "next",
+    "@grafana/data": "6.5.2",
+    "@grafana/toolkit": "6.5.2",
+    "@grafana/ui": "6.5.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "plop": "2.0.0",
