@@ -44,7 +44,7 @@ export class SimplePanel extends PureComponent<Props> {
         >
           <div>Count: {data.series.length}</div>
           <div>{options.text}</div>
-          <Form/>
+          <Form />
         </div>
       </div>
     );

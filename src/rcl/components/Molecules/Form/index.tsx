@@ -8,7 +8,7 @@ class Form extends React.Component {
       <div>
         <h1>Form</h1>
         <Input />
-        <br/>
+        <br />
         <Button />
       </div>
     );

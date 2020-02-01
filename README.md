@@ -31,18 +31,6 @@ $ yarn watch
 
 ## Build plugin
 
-Currently this doesn't work, as it appears prettier is choking on the rcl tsx files for some reason.
-
-Workaround:
-* Call `yarn watch` it won't build or lint but will compile your component
-* Dig into `node_modules/@graphana/toolkit/src/cli/tasks/plugin.build.js` and `return true` at the top of `exports.prettierCheckPlugin` # engineer-of-the-year-award
-
-Possible Solutions:
-* Find out why it is choking (kind of future proof)
-* Alias in webpack.config.js the `prettierCheckPlugin` with an empty mock
-* Write wrapper around `grafana-toolkit plugin:build` to override call to `prettierCheckPlugin` (not really future proof)
-
-
 ```
 $ docker-compose exec dev sh
 $ yarn build

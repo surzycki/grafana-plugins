@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '..';
 import { shallow, render } from 'enzyme';
 
-const setup = (propOverrides) => {
+const setup = propOverrides => {
   const props = { ...propOverrides };
 
   const component = <Button {...props} />;

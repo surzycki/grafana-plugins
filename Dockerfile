@@ -5,7 +5,7 @@
 # Change this for different versions of ruby (see https://hub.docker.com/_/python/)
 # FROM python:3.5-slim
 # FROM python:3.4-slim
-FROM grafana/grafana
+FROM grafana/grafana:6.6.0
 
 ENV APP_HOME /data/plugins
 ENV GF_PATHS_PLUGINS $APP_HOME

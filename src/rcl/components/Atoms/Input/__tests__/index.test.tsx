@@ -2,7 +2,7 @@ import React from 'react';
 import Input from '..';
 import { render, shallow, mount } from 'enzyme';
 
-const setup = (propOverrides) => {
+const setup = propOverrides => {
   const props = { ...propOverrides };
 
   const component = <Input {...props} />;
