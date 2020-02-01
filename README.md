@@ -28,14 +28,12 @@ $ yarn install --frozen-lockfile
 $ yarn watch
 ```
 
-
 ## Build plugin
 
 ```
 $ docker-compose exec dev sh
 $ yarn build
 ```
-
 
 ## Run tests
 
