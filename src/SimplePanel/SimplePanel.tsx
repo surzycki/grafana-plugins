@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { PanelProps } from '@grafana/data';
-import { SimpleOptions } from 'types';
+import { SimpleOptions } from './types';
 import Form from 'rcl/components/Molecules/Form';
 
 interface Props extends PanelProps<SimpleOptions> {}

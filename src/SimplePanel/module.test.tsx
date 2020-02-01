@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
-import { defaults } from 'types';
+import { shallow, render } from 'enzyme';
+import { defaults } from 'SimplePanel/types';
 import { SimplePanel } from './SimplePanel';
 
 const setup = propOverrides => {
