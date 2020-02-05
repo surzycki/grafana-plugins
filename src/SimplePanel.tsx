@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import { PanelProps } from '@grafana/data';
 import { SimpleOptions } from 'types';
 import Form from 'rcl/components/Molecules/Form';
+//import lander from 'assets/images/nova-c.jpg';
 
 interface Props extends PanelProps<SimpleOptions> {}
 
@@ -45,6 +46,7 @@ export class SimplePanel extends PureComponent<Props> {
           <div>Count: {data.series.length}</div>
           <div>{options.text}</div>
           <Form />
+          <img src="assets/images/nova-c.jpg" />
         </div>
       </div>
     );

@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { FormField } from '@grafana/ui';
 import { PanelEditorProps } from '@grafana/data';
-
 import { SimpleOptions } from './types';
 
 export class SimpleEditor extends PureComponent<PanelEditorProps<SimpleOptions>> {
