@@ -24,6 +24,8 @@ RUN apk add --no-cache --upgrade \
   tzdata \
   yarn
 
+# hook up source
+ADD . $APP_HOME
 ## Tools
 
 # set working dir
